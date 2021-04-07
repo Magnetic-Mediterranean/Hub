@@ -6,11 +6,9 @@ const flights = (req, res, next) => {
   axios(path + req.url)
   .then(({ data }) => {
     res.send(data);
-    next();
   })
   .catch((err) => {
     res.status(400);
-    next();
   })
 }
 
