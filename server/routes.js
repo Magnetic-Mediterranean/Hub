@@ -4,6 +4,6 @@ const flights = require('./controller/flights');
 const activities = require('./controller/activities');
 
 router.get('/flights/*', flights);
-router.get('/activities', activities);
+router.post('/activities', activities);
 
 module.exports = router;
