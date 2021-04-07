@@ -14,4 +14,4 @@ const flights = (req, res, next) => {
   })
 }
 
-module.exports = { flights }
+module.exports = flights;
