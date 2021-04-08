@@ -6,6 +6,6 @@ const hotels = require('./controller/hotels');
 
 router.get('/flights/*', flights);
 router.post('/activities', activities);
-router.get('/hotels', hotels);
+router.get('/hotels/*', hotels);
 
 module.exports = router;
