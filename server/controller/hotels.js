@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const hotels = (req, res) => {
-  axios.get(`http://ec2-52-91-136-121.compute-1.amazonaws.com:3000${req.url}`).then((response) => {
+  axios.get(`http://52.91.136.121:3000${req.url}`).then((response) => {
     res.send(response.data);
   })
   .catch((err) => {
