@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const hotels = (req, res) => {
   console.log(req.url)
-  axios.get(`http://52.91.136.121:3000${req.url}`).then((response) => {
+  axios.get(`http://52.91.136.121:4000${req.url}`).then((response) => {
 
     res.send(response.data);
   })
