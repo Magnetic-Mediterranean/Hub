@@ -26,7 +26,7 @@
 
 ---
 
-### Link To Front-End [Here](https://github.com/Magnetic-Mediterranean/nextstop!)
+### Link To Front-End [Here](https://github.com/Magnetic-Mediterranean/nextstop_client)
 
 ---
 
